@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LEGO WebStore</title>
+</head>
+<body>
+    <h1 style="text-align: center;">LEGO WebStore</h1>
+    <ul>
+        <hr>
+        <li><a href="#">Produit</a></li>
+        <li><a href="#">Acheter</a></li>
+        <hr
+    </ul>
+    <h2>Acheter des LEGO</h2>
+    <p>Remplissez le formulaire ci-dessous pour commander des <a href="#">LEGO</a> !</p>
+
+    <form>
+        
+            <legend>Informations personnelles</legend>
+            <p>Civilité:</p>
+            <input type="radio" name="gender" value="M"> M.
+            <input type="radio" name="gender" value="Mme"> Mme.
+            <p>
+                <label for="name">Nom:</label><br>
+                <input type="text" id="name" name="name">
+            </p>
+            <p>
+                <label for="prenom">Prénom:</label><br>
+                <input type="text" id="prenom" name="prenom">
+            </p>
+            <p>
+                <label for="email">Mail:</label><br>
+                <input type="email" id="email" name="email">
+            </p>
+        
+        
+            <legend>Informations de livraison</legend>
+            <p>
+                <label for="quantity">Quantité commandée:</label><br>
+                <select id="quantity" name="quantity">
+                    <option value="1">1 boîte</option>
+                    <option value="2">2 boîtes</option>
+                    <option value="3">3 boîtes</option>
+                </select>
+            </p>
+            <p>
+                <label for="address">Adresse de livraison:</label><br>
+                <textarea id="address" name="address" rows="4" cols="40"></textarea>
+            </p>
+        
+            <legend>Confirmation</legend>
+            <p>
+                <input type="checkbox" id="confirmation" name="confirmation">
+                <label for="confirmation">J'ai relu ma commande et certifie que ces informations sont correctes.</label>
+            </p>
+        </fieldset>
+        <p>
+            <button type="submit">Confirmer la commande</button>
+        </p>
+    </form>
+    <p><a href="#">Retour en haut de la page</a></p>
+    <hr>
+    <p>
+        Auteur: Florian Lepéretre<br>
+        ULCO | Développement Web | 2017 - 2018<br>
+        Copyright (c) 2017 Copyright Holder All Rights Reserved.
+    </p>
+</body>
+</html>
+
